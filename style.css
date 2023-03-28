@@ -1,0 +1,67 @@
+header {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 36px;
+}
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+main article{
+  min-width: 300px;
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+main article img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main article button{
+  cursor: pointer;
+  position: absolute;
+  width: 2.5rem;
+  right: 0;
+  background-color:darkturquoise;
+  border: none;
+  font-size: 2rem;
+}
+h2{
+  text-align: center;
+}
+aside {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+aside article {
+  min-width: 300px;
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+
+aside article img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+aside article button {
+  cursor: pointer;
+  position: absolute;
+  width: 2.5rem;
+  right: 0;
+  background-color: darkturquoise;
+  border: none;
+  font-size: 2rem;
+}
